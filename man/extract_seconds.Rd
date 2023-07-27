@@ -16,5 +16,5 @@ The numeric seconds value
 Extract seconds from latitude / longitude string
 }
 \examples{
-extract_seconds("11° 34 \' 19\"")
+extract_seconds("11° 34 ' 19\"")
 }

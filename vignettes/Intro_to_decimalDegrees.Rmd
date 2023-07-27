@@ -23,7 +23,7 @@ This is the introduction to decimalDegrees.
 A typical workflow looks like this:
 
 ```{r}
-dms_string <- "11° 34 \' 19\""
+dms_string <- "11° 34 ' 19\""
 
 degrees <- extract_degrees(dms_string)
 minutes <- extract_minutes(dms_string)

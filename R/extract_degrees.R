@@ -5,7 +5,7 @@
 #' @return The numeric degrees value
 #' @export
 #'
-#' @examples extract_degrees("11° 34 \' 19\"")
+#' @examples extract_degrees("11° 34 ' 19\"")
 extract_degrees <- function(dms_string) {
   degrees <- as.numeric(sub("(\\d+)°.*", "\\1", dms_string))
   return(degrees)

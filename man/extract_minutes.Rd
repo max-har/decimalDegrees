@@ -16,5 +16,5 @@ The numeric minutes value
 Extract minutes from latitude / longitude string
 }
 \examples{
-extract_minutes("11° 34 \' 19\"")
+extract_minutes("11° 34 ' 19\"")
 }

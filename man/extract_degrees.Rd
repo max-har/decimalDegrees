@@ -16,5 +16,5 @@ The numeric degrees value
 Extract degrees from latitude / longitude string
 }
 \examples{
-extract_degrees("11° 34 \' 19\"")
+extract_degrees("11° 34 ' 19\"")
 }
