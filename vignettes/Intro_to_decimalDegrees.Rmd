@@ -1,0 +1,33 @@
+---
+title: "Introduction to decimalDegrees"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to decimalDegrees}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(decimalDegrees)
+```
+
+This is the introduction to decimalDegrees.
+
+A typical workflow looks like this:
+
+```{r}
+dms_string <- "11° 34 \' 19\""
+
+degrees <- extract_degrees(dms_string)
+minutes <- extract_minutes(dms_string)
+seconds <- extract_seconds(dms_string)
+
+convert_dms_to_dd(degrees, minutes, seconds)
+```
